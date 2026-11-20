@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bn6jqjtajjhy1"]
+
+[ext_resource type="Texture2D" uid="uid://de1mpbrb3bsl4" path="res://art/arrowkeys.png" id="1_181ek"]
+[ext_resource type="Script" uid="uid://biu8wqn4bvr1k" path="res://objects/key_listener.gd" id="2_vgigu"]
+
+[node name="KeyListener" type="Sprite2D" unique_id=2078132615]
+texture = ExtResource("1_181ek")
+hframes = 4
+vframes = 2
+script = ExtResource("2_vgigu")
+
+[node name="RandomSpawnTimer" type="Timer" parent="." unique_id=831274916]
+autostart = true
+
+[connection signal="timeout" from="RandomSpawnTimer" to="." method="_on_random_spawn_timer_timeout"]

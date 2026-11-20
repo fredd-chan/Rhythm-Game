@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://b38esb7u6d425"]
+
+[ext_resource type="PackedScene" uid="uid://bn6jqjtajjhy1" path="res://objects/key_listener.tscn" id="1_qc6i3"]
+
+[node name="GameLevel" type="Node2D" unique_id=1259695378]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2131283953]
+
+[node name="KeyListener" parent="." unique_id=1770982850 instance=ExtResource("1_qc6i3")]
+position = Vector2(-200, 450)
+key_name = "button_D"
+
+[node name="KeyListener2" parent="." unique_id=2078132615 instance=ExtResource("1_qc6i3")]
+position = Vector2(-70, 450)
+frame = 1
+key_name = "button_F"
+
+[node name="KeyListener3" parent="." unique_id=1658972646 instance=ExtResource("1_qc6i3")]
+position = Vector2(70, 450)
+frame = 2
+key_name = "button_J"
+
+[node name="KeyListener4" parent="." unique_id=580637642 instance=ExtResource("1_qc6i3")]
+position = Vector2(200, 450)
+frame = 3
+key_name = "button_K"

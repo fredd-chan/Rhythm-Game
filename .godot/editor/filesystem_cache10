@@ -1,0 +1,11 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1795202128
+::res://art/::1795029682
+arrowkeys.png::CompressedTexture2D::7494446716926696451::1795029682::1795029682::1::::<><><>0<>0<>0937bbac21fe09718947ea7b42d1ce30<>res://.godot/imported/arrowkeys.png-eab1aacbc0a2fcdc0b21f64bb24a2c56.ctex::
+::res://levels/::1795116374
+game_level.tscn::PackedScene::4420107886610713136::1795116374::0::1::::<><><>0<>0<><>::uid://bn6jqjtajjhy1::::res://objects/key_listener.tscn<>uid://dt0eqmss3pljq::::res://objects/falling_key.tscn
+::res://objects/::1795030766
+falling_key.gd::GDScript::7230635496030735424::1795030766::0::1::::<>Sprite2D<><>0<>0<><>::
+falling_key.tscn::PackedScene::8544731623669495910::1795030766::0::1::::<><><>0<>0<><>::uid://de1mpbrb3bsl4::::res://art/arrowkeys.png<>uid://dbatrl2k0dcei::::res://objects/falling_key.gd
+key_listener.gd::GDScript::2991262797881625946::1795030161::0::1::::<>Sprite2D<><>0<>0<><>::
+key_listener.tscn::PackedScene::3363446889074576510::1795030161::0::1::::<><><>0<>0<><>::uid://de1mpbrb3bsl4::::res://art/arrowkeys.png<>uid://biu8wqn4bvr1k::::res://objects/key_listener.gd
